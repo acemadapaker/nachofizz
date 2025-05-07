@@ -1,0 +1,132 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    color: #222;
+    background-color: #fffaf5;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #ff6600;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar nav a {
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar nav a:hover {
+    color: #ffe4b3;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+  }
+  
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #ffcc00 0%, #ff6600 100%);
+    color: #fff;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero button {
+    background-color: #fff;
+    color: #ff6600;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .hero button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Sections */
+  .section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding-top: 1rem;
+  }
+  
+  .features li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+  }
+  
+  /* Contact */
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .contact input {
+    padding: 0.8rem;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .contact button {
+    background-color: #ff6600;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: #eee;
+    padding: 1rem;
+    text-align: center;
+  }
+  
