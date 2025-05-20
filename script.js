@@ -1,6 +1,11 @@
-function scrollToContact() {
-    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+function scrollToSection(id) {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   }
   
-  // You can also add future enhancements or toast notifications here.
+  document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll(".fade-in, .slide-up");
+    elements.forEach(el => {
+      el.classList.add("visible");
+    });
+  });
   
